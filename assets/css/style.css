@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(161, 159, 159);
+}
+main {
+    background-color:#ebebeb;
+    display: block;
+    width: 960px;
+    margin: auto;
+}
+#aboutMe {
+    display: block;
+    color: teal;
+    margin-left: 25px;
+    padding: 5px;
+}
+#personalPic {
+    display: inline-block;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+}
+hr {
+    display: block;
+    width: 900x;
+    height: 15px;
+    border: 0;
+    border-top: 5px solid black;
+    margin: auto 1em 0;
+    padding: 2px;
+}
+#personalInfo1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+#personalInfo2 {
+    display: block;
+    margin-left: 25px;
+}
