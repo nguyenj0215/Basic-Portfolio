@@ -3,14 +3,14 @@ body {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
-main {
+section {
     background-color:#ffffff;
     width: 960px;
     margin: auto;
     margin-top: 50px;
     border: 1px solid grey;
 }
-#aboutMe {
+#header {
     color: #4aaaa5;
     margin: 25px;
     padding: 5px;
@@ -53,4 +53,30 @@ footer {
     color: white;
     padding-top: 25px;
     border-top: 10px solid #4aaaa5;
+}
+label {
+    display: block;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.box {
+    margin: 7px 0 5px 25px;
+    width: 93%;
+    height: 20px;
+    padding: 7px;
+    font-size: 15px;
+}
+.textArea {
+    margin: 7px 0 25px 25px;
+    width: 93%;
+    height: 125px;
+    padding: 7px;
+}
+#submitButton {
+    height: 40px;
+    width: 100px;
+    margin: 0 0 25px 25px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 15px;
 }
