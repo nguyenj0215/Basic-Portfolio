@@ -52,7 +52,7 @@ footer {
     text-align: center;
     color: white;
     padding-top: 25px;
-    border-top: 10px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
 }
 label {
     display: block;
@@ -79,4 +79,135 @@ label {
     background: #4aaaa5;
     color: #ffffff;
     font-size: 15px;
+}
+.image1 {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 0 0 10px 25px;
+    z-index: 1;
+}
+.image2 {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 0;
+}
+.imageLabel {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    font-size: 15px;
+    height: 10px;
+    width: 170px;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    padding: 15px 15px 20px 15px;
+    margin: 75px 25px 25px -200px;
+}
+.imageLabel2 {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    font-size: 15px;
+    height: 10px;
+    width: 170px;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    padding: 15px 15px 20px 15px;
+    margin: 75px 25px 25px -200px;
+}
+.imageLabel3 {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    font-size: 15px;
+    height: 10px;
+    width: 170px;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    padding: 15px 15px 20px 15px;
+    margin: 75px 25px 25px -200px;
+}
+.imageLabel4 {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    font-size: 15px;
+    height: 10px;
+    width: 170px;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    padding: 15px 15px 20px 15px;
+    margin: 75px 25px 25px -200px;
+}
+#row1 {
+    height: 133.1px;
+    width: 550px;
+    margin-top: 25px;
+}
+.image3 {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 0px 0 10px 25px;
+}
+.image4 {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 0;
+}
+#row2 {
+    height: 133.1px;
+    width: 550px;
+    margin-top: 25px;
+}
+.image5 {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 0px 0 10px 25px;
+}
+.image6 {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 0;
+}
+#row3 {
+    height: 133.1px;
+    width: 550px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.imageLabel5 {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    font-size: 15px;
+    height: 10px;
+    width: 170px;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    padding: 15px 15px 20px 15px;
+    margin: 75px 25px 25px -200px;
+}
+.imageLabel6 {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    font-size: 15px;
+    height: 10px;
+    width: 170px;
+    z-index: 1000;
+    position: relative;
+    text-align: center;
+    padding: 15px 15px 20px 15px;
+    margin: 75px 25px 25px -200px;
 }
