@@ -19,6 +19,7 @@ body {
     background: #4aaaa5;
     font-weight: bold;
     width: 175px;
+    max-height: 79px;
     color: #ffffff;
     font-size: 25px;
 }
@@ -100,7 +101,7 @@ footer {
     margin-left: -8px;
     text-align: center;
     color: white;
-    padding-top: 25px;
+    padding-top: 18px;
     padding-bottom: 5px;
     border-top: 8px solid #4aaaa5;
 }
@@ -115,6 +116,7 @@ label {
     height: 20px;
     padding: 7px;
     font-size: 15px;
+    color: #777777;
 }
 .textArea {
     margin: 7px 0 25px 25px;
@@ -165,6 +167,7 @@ label {
     z-index: 999;
     text-align: center;
     padding: 15px 15px 20px 15px;
+    color: white;
 }
 .labelL {
     position: absolute;
