@@ -5,14 +5,15 @@ body {
 }
 .topBar {
     background: #ffffff;
-    width: 960px;
-    margin: auto;
-    margin-top: -10px;
+    width: 100%;
+    margin-top: -8px;
     height: 79px;
     position: relative;
-    border: 1px solid #777777;
+    border-bottom: 1px solid #777777;
 }
 .nameBox {
+    position: absolute;
+    left: 230px;
     padding: 25px;
     margin: 0;
     background: #4aaaa5;
@@ -23,21 +24,21 @@ body {
 }
 .toAbout {
     position: absolute;
-    right: 195px;
+    right: 395px;
     top: 33px;
     border-right: 1px solid #777777;
     padding-right: 15px;
-}
-.toContact {
-    position: absolute;
-    right: 105px;
-    padding-right: 15px;
-    top: 33px;
-    border-right: 1px solid #777777;
 }
 .toPortfolio {
+    position: absolute;
+    right: 305px;
+    padding-right: 15px;
+    top: 33px;
+    border-right: 1px solid #777777;
+}
+.toContact {
   position: absolute;
-  right: 25px;
+  right: 235px;
   top: 33px;
 }
 section {
@@ -84,11 +85,14 @@ footer {
     bottom: 0;
     background-color: #666666;
     width: 100%;
+    height: 35px;
     margin: auto;
+    font-size: 13px;
     margin-left: -8px;
     text-align: center;
     color: white;
     padding-top: 25px;
+    padding-bottom: 5px;
     border-top: 8px solid #4aaaa5;
 }
 label {
@@ -96,7 +100,7 @@ label {
     margin-left: 25px;
     margin-top: 25px;
 }
-.box {
+.inputBox {
     margin: 7px 0 5px 25px;
     width: 93%;
     height: 20px;
@@ -146,7 +150,6 @@ label {
 }
 .imageLabel {
     background: #4aaaa5;
-    color: white;
     font-size: 15px;
     height: 10px;
     width: 170px;
@@ -156,12 +159,12 @@ label {
 }
 .labelL {
     position: absolute;
-    top: 55px;
+    top: 65px;
     left: 25px;
 }
 .labelR {
     position: absolute;
-    top: 55px;
+    top: 65px;
     left: 300px;
 }
 .imageEffect:hover {
@@ -170,4 +173,7 @@ label {
 .imageEffect {
     width: 200px;
     height: auto;
+}
+a {
+    text-decoration: none;
 }
