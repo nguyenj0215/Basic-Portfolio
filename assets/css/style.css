@@ -248,3 +248,6 @@ label {
     padding: 15px 15px 20px 15px;
     margin: 75px 25px 25px -200px;
 }
+.imageEffect:hover {
+    transform: scale(1.1);
+}
