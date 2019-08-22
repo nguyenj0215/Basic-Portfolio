@@ -25,11 +25,15 @@ body {
     position: absolute;
     right: 195px;
     top: 33px;
+    border-right: 1px solid #777777;
+    padding-right: 15px;
 }
 .toContact {
     position: absolute;
-    right: 110px;
+    right: 105px;
+    padding-right: 15px;
     top: 33px;
+    border-right: 1px solid #777777;
 }
 .toPortfolio {
   position: absolute;
