@@ -19,7 +19,6 @@ body {
     background: #4aaaa5;
     font-weight: bold;
     width: 175px;
-    max-height: 79px;
     color: #ffffff;
     font-size: 25px;
 }
@@ -49,6 +48,7 @@ section {
     margin: auto;
     margin-top: 35px;
     border: 1px solid grey;
+    max-height: 600px;
 }
 #header {
     color: #4aaaa5;
@@ -57,7 +57,7 @@ section {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #personalPic {
-    position: absolute;
+    position: relative;
     margin: 25px;
     width: 200px;
     height: 200px;
@@ -74,6 +74,7 @@ hr {
     position: relative;
     line-height: 200%;
     width: 70%;
+    top: -253px;
     left: 250px;
 }
 #personalInfo2 {
@@ -81,14 +82,14 @@ hr {
     line-height: 200%;
     width: 95%;
     margin: 25px;
-    top: 100px;
+    top: -215px;
 }
 #personalInfo3 {
     position: relative;
     line-height: 200%;
     width: 95%;
     margin: 25px;
-    top: 85px;
+    top: -225px;
 }
 footer {
     position: absolute;
@@ -97,8 +98,8 @@ footer {
     width: 100%;
     height: 35px;
     margin: auto;
-    font-size: 13px;
     margin-left: -8px;
+    font-size: 13px;    
     text-align: center;
     color: white;
     padding-top: 18px;
