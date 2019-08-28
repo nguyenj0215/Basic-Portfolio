@@ -2,41 +2,50 @@
 <html lang="en">
 
 <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Contact</title>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-        <div class="topBar">
-                <p class="nameBox">Jason Nguyen</p>
-                <a class="toAbout" href="index.html">About</a>
-                <a class="toPortfolio" href="portfolio.html">Portfolio</a>
-                <a class="toContact" href="contact.html">Contact</a>
+        <div class="container">
+                <div class="topBar">
+                        <p class="nameBox">Jason Nguyen</p>
+                        <a class="toAbout" href="index.html">About</a>
+                        <a class="toPortfolio" href="portfolio.html">Portfolio</a>
+                        <a class="toContact" href="contact.html">Contact</a>
+                </div>
+                <section class="mainContent">
+                        <h1 id="header">Contact</h1>
+                        <hr />
+
+                        <form>
+                                <label>Name</label>
+                                <input class="inputBox" type="text" name="name" placeholder="John Smith">
+
+
+                                <label>Email</label>
+                                <input class="inputBox" type="email" name="email" placeholder="example@gmail.com">
+
+
+
+                                <label>Message</label>
+
+                                <textarea class="textArea"
+                                        style="font-size: 16px; font-family:Arial, Helvetica, sans-serif; color: #777777"></textarea>
+
+                                <input type="submit" value="Submit" id="submitButton">
+
+
+                        </form>
+                </section>>
         </div>
-        <section>
-                <h1 id="header">Contact</h1>
-                <hr />
+                <div class="footer">
+                        <br>Copyright &copy;
+                </div>
 
-                <form>
-                        <label>Name</label>
-                        <input class="inputBox" type="text" name="name" placeholder="John Smith">
-
-
-                        <label>Email</label>
-                        <input class="inputBox" type="email" name="email" placeholder="example@gmail.com">
-
-
-
-                        <label>Message</label>
-
-                        <textarea class="textArea" style="font-size: 16px; font-family:Arial, Helvetica, sans-serif; color: #777777"></textarea>
-
-                        <input type="submit" value="Submit" id="submitButton">
-
-
-                </form>
-        </section>
-        <footer><br>Copyright &copy;</footer>
 </body>
 
 </html>
