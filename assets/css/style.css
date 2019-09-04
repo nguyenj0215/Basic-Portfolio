@@ -18,7 +18,7 @@ body, html {
 }
 .nameBox {
     position: absolute;
-    left: 230px;
+    left: 15%;
     padding: 25px;
     margin: 0;
     background: #4aaaa5;
@@ -29,21 +29,21 @@ body, html {
 }
 .toAbout {
     position: absolute;
-    right: 395px;
+    right: 26.5%;
     top: 33px;
     border-right: 1px solid #777777;
     padding-right: 15px;
 }
 .toPortfolio {
     position: absolute;
-    right: 305px;
+    right: 20%;
     padding-right: 15px;
     top: 33px;
     border-right: 1px solid #777777;
 }
 .toContact {
   position: absolute;
-  right: 235px;
+  right: 15%;
   top: 33px;
 }
 .container {
@@ -52,7 +52,7 @@ body, html {
 }
 .mainContent {
     background-color:#ffffff;
-    width: 960px;
+    width: 70%;
     margin: auto;
     margin-top: 105px;
     border: 1px solid grey;
