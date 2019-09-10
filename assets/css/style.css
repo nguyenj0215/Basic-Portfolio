@@ -175,8 +175,8 @@ label {
     background: #4aaaa5;
     font-size: 15px;
     height: 10px;
-    width: 170px;
-    z-index: 999;
+    width: 171px;
+    z-index: 998;
     text-align: center;
     padding: 15px 15px 20px 15px;
     color: white;
@@ -196,7 +196,11 @@ label {
 }
 .imageEffect {
     width: 200px;
-    height: auto;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    border: 1px solid teal;
+    transition: transform 0.3s;
 }
 a {
     text-decoration: none;
